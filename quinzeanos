@@ -1,0 +1,54 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+    font-size: 15pt;
+    background-color: whitesmoke;
+    }
+    #caixa {
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      border-radius: 18px;
+      background: #e0e0e0;
+      box-shadow: 14px 14px 28px #b1b1b1, -14px -14px 28px #ffffff;
+      background-color: whitesmoke;
+      text-align: center;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: gray;
+      font-size: 10pt;
+      margin: 0;
+      padding-top: 74px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    #a {
+      font-size: 12pt;
+      color: dimgray;
+      padding-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="caixa">
+    <div id="tex">
+      <p>El sitio web se está actualizando </p>
+      <p id="a">Vuelve mas tarde :)</p>
+      <p>2022 &copy; Gabriel Dates</p>
+    </div>
+  </div>
+</body>
+</html>
